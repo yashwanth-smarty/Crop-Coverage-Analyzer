@@ -100,10 +100,3 @@ A full-stack application for comparing seasonal crop coverage using satellite im
 | No results    | Try different dates/locations  |
 | Image errors  | Check backend console logs     |
 | EE errors     | Run `earthengine authenticate` |
-
-## Future Enhancements 🚧
-
-- [ ] Add cloud masking
-- [ ] Export results as PDF/GeoJSON
-- [ ] Historical trend analysis
-- [ ] Mobile responsiveness improvements
