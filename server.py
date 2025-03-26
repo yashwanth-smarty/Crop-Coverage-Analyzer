@@ -27,8 +27,8 @@ def get_crop_stats(boundary, date):
         }
     )
     
-    cropland_mask = ee.Image('ESA/WorldCover/v100').select('Map').eq(40)
-    
+    # Replace the cropland_mask line with:
+    cropland_mask = ee.Image("COPERNICUS/LandCover/100m/Proba-V-C3/Global").select('discrete_classification').eq(40)    
     ndvi_threshold = 0.35 if evi.reduceRegion(ee.Reducer.mean(), boundary, 30).getInfo()['constant'] > 0.2 else 0.4
     cropland = ndvi.gt(ndvi_threshold).And(cropland_mask)
     
