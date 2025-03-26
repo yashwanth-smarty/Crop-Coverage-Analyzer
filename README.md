@@ -17,7 +17,6 @@ A full-stack application for comparing seasonal crop coverage using satellite im
   - ESA WorldCover cropland filtering
   - Adaptive thresholding
 - **Visual Results**
-  - Side-by-side satellite imagery
   - Acreage statistics (cropped/idle land)
 
 ## Technical Stack 🛠️
@@ -85,12 +84,10 @@ A full-stack application for comparing seasonal crop coverage using satellite im
 
 3. **Analyze**
    - Click "Analyze" button
-   - Wait for processing (typically 10-20 seconds)
+   - Wait for processing (typically 2-5 seconds)
 
 4. **Interpret Results**
    - View crop vs idle acreage
-   - Compare seasonal satellite imagery
-   - Green boundary shows analyzed area
 
 ### Troubleshooting
 
