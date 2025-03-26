@@ -3,7 +3,7 @@
 A full-stack application for comparing seasonal crop coverage using satellite imagery and vegetation indices.
 
 ![App Screenshot](/TriCAD-Assignment-SS.png)
-
+![App Screenshot](/TriCAD-Assignment-SS2.png)
 ## Features ✨
 
 - **Interactive Map Selection**
